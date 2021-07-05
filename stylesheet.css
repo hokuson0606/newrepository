@@ -91,7 +91,6 @@ header li {
 
 .first-content-txt {
 	width: 50%;
-	height: 216px;
 }
 
 .first-content-box {
@@ -102,8 +101,6 @@ header li {
 
 .first-content-img {
 	margin-left: 180px;
-	width: 268px;
-	height: 243px;
 }
 
 .first-content-btn {
@@ -129,10 +126,7 @@ header li {
 /* second-contents */
 
 .second-content {
-	width: 100%;
-	margin: 0 auto;
 	background-color: #edf7fa;
-	height: 396px;
 	margin: 30px 0;
 	display: flex;
 	justify-content: space-between;
@@ -161,8 +155,7 @@ header li {
 .second-content-box-left {
 	background-color: #fff;
 	color: #21243d;
-	height: 295px;
-	width: 48%;
+
 	padding: 20px;
 }
 
@@ -269,8 +262,6 @@ ul.gnav-list li a::first-line {
 }
 
 .third-content-txt {
-	width: 594px;
-	height: 93px;
 	margin-left: 18px;
 }
 
@@ -286,8 +277,7 @@ ul.gnav-list li a::first-line {
 	background-color: #142850;
 	color: #fff;
 	font-size: 18px;
-	width: 62px;
-	height: 25px;
+
 	border-radius: 16px;
 	text-align: center;
 }
@@ -298,8 +288,6 @@ ul.gnav-list li a::first-line {
 }
 
 .txt {
-	width: 594px;
-	height: 93px;
 	display: flex;
 }
 
@@ -339,7 +327,6 @@ ul.gnav-list li a::first-line {
 
 	.container,
 	.third-content {
-		width: 296px;
 		margin: 0 auto 124px;
 	}
 
@@ -349,15 +336,9 @@ ul.gnav-list li a::first-line {
 		flex-direction: column;
 	}
 
-	.first-content-txt {
-		width: 50%;
-		height: 216px;
-	}
-
 	.first-content-img {
 		margin-left: 180px;
-		width: 268px;
-		height: 243px;
+
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -367,8 +348,7 @@ ul.gnav-list li a::first-line {
 
 	.first-content-btn {
 		background-color: #ff6464;
-		width: 208px;
-		height: 47px;
+
 		display: flex;
 		justify-content: center;
 		align-items: center;
