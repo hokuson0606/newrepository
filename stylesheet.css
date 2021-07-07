@@ -86,16 +86,16 @@ header li {
 
 .first-content-txt {
 	width: 50%;
+	margin-right: 120px;
 }
 
 .first-content-box {
 	display: flex;
-	align-items: center;
 	margin-top: 60px auto 40px;
 }
 
 .first-content-img {
-	margin-left: 180px;
+	order: 1;
 }
 
 .first-content-btn {
@@ -125,6 +125,7 @@ header li {
 	margin: 30px 0;
 	padding: 30px;
 	display: flex;
+	justify-content: space-between;
 }
 
 .second-content-option {
@@ -322,30 +323,34 @@ ul.gnav-list li a::first-line {
 
 	.container,
 	.third-content {
-		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-left: 60px;
-		width: 296px;
 	}
 
 	.first-content-box {
 		margin-bottom: 60px;
-		display: flex;
-		flex-direction: column;
+		display: block;
+		text-align: center;
+	}
+
+	.first-content-txt {
+		display: block;
+		width: 100%;
+	}
+
+	.first-content-btn {
+		background-color: #ff6464;
 	}
 
 	.second-content-box {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		display: block;
 	}
 
-	.first-content-img {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translateY(-50%) translateX(-50%);
-		transform: translateY(-50%) translateX(-50%);
+	.second-content-box-left {
+		display: block;
+	}
+
+	.second-content-box-left　p {
+		text-align: center;
 	}
 }
