@@ -128,7 +128,6 @@ header li {
 	background-color: #edf7fa;
 	margin: 30px 0;
 	padding: 30px;
-	display: flex;
 	justify-content: space-between;
 }
 
@@ -149,7 +148,6 @@ header li {
 
 .second-content-box {
 	display: flex;
-	justify-content: space-between;
 }
 
 .second-content-box-left {
@@ -361,9 +359,10 @@ ul.gnav-list li a::first-line {
 	.second-content-box-left {
 		display: block;
 		margin: 40px 0px;
+		text-align: center;
 	}
 
-	.second-content-box-left　p {
+	.second-content-option {
 		display: flex;
 		justify-content: center;
 	}
