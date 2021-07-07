@@ -348,9 +348,11 @@ ul.gnav-list li a::first-line {
 
 	.second-content-box-left {
 		display: block;
+		margin: 40px 0px;
 	}
 
 	.second-content-box-left　p {
-		text-align: center;
+		display: flex;
+		justify-content: center;
 	}
 }
