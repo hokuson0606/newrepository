@@ -59,6 +59,10 @@ ul {
 	display: block;
 }
 
+#sp-only {
+	display: none;
+}
+
 section {
 	padding: 60px 0;
 }
@@ -319,6 +323,14 @@ ul.gnav-list li a::first-line {
 
 	.pc-only {
 		display: none;
+	}
+
+	#sp-only {
+		display: block;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.container,
