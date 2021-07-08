@@ -85,11 +85,14 @@ header li {
 
 .container {
 	width: 80%;
-	margin: 0 auto;
 }
 
 .first-content-txt {
 	width: 500px;
+}
+
+.first-content-txt p {
+	margin-bottom: 30px;
 }
 
 .first-content-txt h2 {
@@ -98,6 +101,7 @@ header li {
 
 .first-content-box {
 	display: flex;
+	justify-content: space-around;
 }
 
 .first-content-img {
@@ -136,7 +140,6 @@ header li {
 	background-color: #edf7fa;
 	margin: 30px 0;
 	padding: 30px;
-	justify-content: space-between;
 }
 
 .second-content-option {
@@ -156,6 +159,7 @@ header li {
 
 .second-content-box {
 	display: flex;
+	justify-content: space-around;
 }
 
 .second-content-box-left {
