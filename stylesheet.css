@@ -89,13 +89,15 @@ header li {
 }
 
 .first-content-txt {
-	width: 50%;
-	margin-right: 120px;
+	width: 500px;
+}
+
+.first-content-txt h2 {
+	font-weight: 600;
 }
 
 .first-content-box {
 	display: flex;
-	margin-top: 60px auto 40px;
 }
 
 .first-content-img {
@@ -109,10 +111,16 @@ header li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 40px;
 }
 
 .first-content-btn a {
 	color: #fff;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
 }
 
 .hamburger-menu {
@@ -233,8 +241,8 @@ ul.gnav-list li a::first-line {
 }
 
 .second-content-box-left h2 {
-	font-size: 35px;
-	font-style: bold;
+	font-size: 30px;
+	font-weight: 700;
 	margin-bottom: 17px;
 }
 
@@ -275,13 +283,13 @@ ul.gnav-list li a::first-line {
 	background-color: #142850;
 	color: #fff;
 	font-size: 18px;
-
+	padding: 0 10px;
 	border-radius: 16px;
 	text-align: center;
 }
 
 .Description {
-	margin-left: 36px;
+	margin-left: 26px;
 	color: #8695a4;
 }
 
