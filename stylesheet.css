@@ -167,7 +167,7 @@ header li {
 	background-color: #fff;
 	color: #21243d;
 	padding: 20px;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 #gnav-content {
@@ -358,21 +358,31 @@ ul.gnav-list li a::first-line {
 	.third-content {
 		flex-direction: column;
 		align-items: center;
-		width: 100%;
+		width: 95%;
+		margin: 0 auto;
 	}
 
 	.first-content-box {
 		margin-bottom: 60px;
 		display: block;
+
 		text-align: center;
+	}
+
+	.first-content-img img {
+		width: 50%;
 	}
 
 	.first-content-txt {
 		display: block;
-		width: 100%;
+		width: 93%;
 		text-align: center;
+		margin: 0 auto;
 	}
 
+	.first-content-txt h2 {
+		font-size: 32px;
+	}
 	.first-content-txt p {
 		width: 100%;
 	}
@@ -382,7 +392,7 @@ ul.gnav-list li a::first-line {
 	}
 
 	.second-content {
-		padding: 10px;
+		padding: 5px;
 	}
 
 	.second-content-box {
@@ -402,25 +412,28 @@ ul.gnav-list li a::first-line {
 	}
 
 	.second-content-option-left p {
-		margin: auto;
+		font-size: 18px;
+		margin-top: 30px;
 	}
 
 	.third-content-img img {
-		width: 100vw;
+		width: 95vw;
 		flex: 1;
 	}
 
 	.third-content-txt {
 		width: 100%;
+		margin: 0 auto;
 	}
 
 	.third-content-txt h2 {
-		margin: auto;
+		width: 108%;
+		font-size: 24px;
+		margin: 0 auto;
 	}
 
 	.txt {
 		width: 100%;
-		margin: 0 auto;
 	}
 
 	.txt p {
@@ -429,5 +442,9 @@ ul.gnav-list li a::first-line {
 
 	.border {
 		width: 100%;
+	}
+
+	.last p {
+		font-size: 14px;
 	}
 }
