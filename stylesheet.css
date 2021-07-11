@@ -354,6 +354,10 @@ ul.gnav-list li a::first-line {
 		align-items: center;
 	}
 
+	header {
+		margin-bottom: 70px;
+	}
+
 	.container,
 	.third-content {
 		flex-direction: column;
