@@ -355,7 +355,7 @@ ul.gnav-list li a::first-line {
 	}
 
 	header {
-		margin-bottom: 70px;
+		margin-bottom: 60px;
 	}
 
 	.container,
@@ -400,19 +400,20 @@ ul.gnav-list li a::first-line {
 	}
 
 	.second-content {
-		padding: 0 5px 30px;
+		padding: 0 0px 20px;
 		margin: none;
 	}
 
 	.second-content-box {
 		display: block;
 		width: 100%;
-
+		padding: 0 0px auto;
 		margin: auto;
 	}
 	.second-content-box-left {
 		display: block;
 		margin: 20px 0px auto;
+		padding: 10px 15px;
 	}
 
 	.second-content-option {
@@ -422,7 +423,8 @@ ul.gnav-list li a::first-line {
 
 	.second-content-option-left p {
 		font-size: 18px;
-		margin: 10px 0 auto;
+		margin: 20px 0 auto;
+		font-weight: lighter;
 	}
 
 	.center p {
@@ -431,7 +433,7 @@ ul.gnav-list li a::first-line {
 
 	.third-content-img img {
 		width: 90vw;
-		flex: 1;
+		margin-bottom: 5px;
 	}
 
 	.third-content-txt {
