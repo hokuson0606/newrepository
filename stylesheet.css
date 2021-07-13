@@ -416,6 +416,10 @@ ul.gnav-list li a::first-line {
 		padding: 10px 15px;
 	}
 
+	.second-content-box-left　p {
+		display: inline;
+	}
+
 	.second-content-option {
 		display: flex;
 		justify-content: center;
