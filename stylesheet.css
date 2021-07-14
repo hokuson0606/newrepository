@@ -69,7 +69,7 @@ section {
 header {
 	width: 100%;
 	padding: 10px 0;
-	margin-bottom: 90px;
+	margin-bottom: 110px;
 }
 
 .header-logo-menu {
@@ -80,6 +80,7 @@ header li {
 	display: inline-block;
 	padding: 0 30px;
 	text-align: right;
+	font-weight: 800;
 }
 
 .container {
@@ -452,6 +453,23 @@ ul.gnav-list li a::first-line {
 	}
 
 	.second-content-option-left p {
+		font-size: 18px;
+		margin: 20px 0 auto;
+		font-weight: lighter;
+	}
+
+	.second-content-box-right {
+		display: block;
+		margin: 20px 0px auto;
+		padding: 10px 15px;
+	}
+
+	.second-content-box-right　p {
+		display: inline;
+	}
+
+
+	.second-content-option-right p {
 		font-size: 18px;
 		margin: 20px 0 auto;
 		font-weight: lighter;
