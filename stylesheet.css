@@ -160,13 +160,57 @@ header li {
 
 .second-content-box {
 	display: flex;
+	
 }
 
 .second-content-box-left {
 	background-color: #fff;
 	color: #21243d;
 	padding: 20px;
-	margin-right: 20px;
+	margin-right: 10px;
+}
+
+.second-content-box-left h2 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 17px;
+}
+
+.second-content-box-left h3 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.second-content-box-left　p {
+	font-size: 20px;
+	font-family: heebo;
+	font-style: regular;
+}
+
+.second-content-box-right {
+	background-color: #fff;
+	color: #21243d;
+	padding: 20px;
+	margin-left: 10px;
+}
+
+.second-content-box-right h2 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 17px;
+}
+
+.second-content-box-right h3 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.second-content-box-right　p {
+	font-size: 20px;
+	font-family: heebo;
+	font-style: regular;
 }
 
 #gnav-content {
@@ -244,23 +288,6 @@ ul.gnav-list li a::first-line {
 	left: 0;
 }
 
-.second-content-box-left h2 {
-	font-size: 22px;
-	font-weight: 700;
-	margin-bottom: 17px;
-}
-
-.second-content-box-left h3 {
-	font-size: 18px;
-	font-weight: 500;
-	margin-bottom: 15px;
-}
-
-.second-content-box-left　p {
-	font-size: 20px;
-	font-family: heebo;
-	font-style: regular;
-}
 
 .third-content-option p {
 	font-size: 22px;
