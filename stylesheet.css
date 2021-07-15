@@ -315,7 +315,8 @@ ul.gnav-list li a::first-line {
 
 .third-content-txt h2 {
 	font-size: 30px;
-	font-weight: 800;
+	font-weight: 800;	
+	margin-bottom: 0px;
 }
 
 .third-content p {
@@ -342,6 +343,7 @@ ul.gnav-list li a::first-line {
 
 .txt {
 	display: flex;
+	margin: 0;
 }
 
 .sns-logo {
